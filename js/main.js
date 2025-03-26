@@ -230,6 +230,7 @@ var owlCarouselPlugin = function() {
 	    margin: 0,
 	    smartSpeed: 1000,
 	    autoplay: true,
+		autoplayTimeout: 1500,
 	    autoplayHoverPause: true,
 	    dots: false,
 	    nav: false,

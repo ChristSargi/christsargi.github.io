@@ -685,12 +685,21 @@ a, a:hover {
   top: -10px;
 }
 
+
 .cover-v1 {
   background-size: cover;
-  background-position: center center;
-  background-repeat: repeat;
+  background-position: center top 40%;
+  background-repeat: no-repeat;
   width: 100%;
 }
+
+.text-background {
+  background-color: rgb(0, 0, 0); /* Pink with 50% opacity */
+  display: inline-block; /* Fit the text size */
+  padding: 15px 30px; /* Adjust padding */
+  border-radius: 10px; /* Rounded corners */
+}
+
 
 .cover-v1.gradient-bottom-black {
   position: relative;
