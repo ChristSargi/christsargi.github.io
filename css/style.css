@@ -135,6 +135,13 @@ a, a:hover {
   right: 0;
   bottom: 0;
 }
+/* Temporary debug code */
+#portfolio-section > * {
+  border: 1px solid red;
+}
+.mb-4 > * {
+  border: 1px solid blue;
+}
 
 .site-loader-wrap {
   z-index: 7700;
